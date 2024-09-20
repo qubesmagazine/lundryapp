@@ -1,50 +1,104 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+# 🚀 Lundry App
 
-1. Install dependencies
+This is a **mobile laundry delivery app** built using **React Native**. The app allows users to schedule pickups, view order history, manage their accounts, and make payments. It provides a seamless way for users to access laundry services from the comfort of their home, streamlining the entire laundry process.
+
+## 📱 Features
+
+- **User Registration & Authentication**: Sign up and log in with personal details.
+- **Account Management**: View and edit profile information, including name, email, phone number, and address.
+- **Order History**: View past laundry orders with status updates and total amounts.
+- **Payment Methods**: Add and manage payment methods securely.
+- **Schedule Pickup**: Request laundry service pickup from your location.
+- **Push Notifications**: Receive notifications for order status updates.
+- **Logout**: Sign out of the account easily.
+
+
+![FrontEnd Images](./assets/images/div1.png)
+![FrontEnd Images](./assets/images/div2.png)
+![FrontEnd Images](./assets/images/div3.png)
+
+
+
+
+## 🛠️ Tech Stack
+
+- **React Native**: For building cross-platform mobile applications.
+- **React router: For managing routes and navigation in the app.
+- **Expo**: For fast and easy development and testing.
+
+
+## ✨ Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Make sure you have the following installed:
+- **Node.js** (v16 or higher)
+- **Expo CLI**: Install by running: `npm install -g expo-cli`
+
+
+### Installation
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/yourusername/laundry-app.git
+   cd laundry-app
+   ```
+
+2. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+
+3. **Start the app:**
+
+   To start the app locally, run:
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   Use an emulator or the Expo Go app on your phone to scan the QR code and launch the app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧩 App Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Here's a quick look at the directory structure of the project:
 
 ```bash
-npm run reset-project
+.
+├── assets              # App images, icons, and other assets
+├── components          # Reusable UI components
+├── screens             # Screens for different sections of the app (e.g., Account, Orders, etc.)
+├── router              # App router setup
+├── services            # API and backend services (e.g., Firebase, MongoDB)
+└── App.js              # Main entry point of the app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🌟 Key Components
 
-## Learn more
+- **Account.js**: Handles the user profile, including editing details like name, email, phone number, and payment methods.
+- **OrderHistory.js**: Displays past laundry orders with details such as order date, status, and total price.
+- **PaymentMethod.js**: Allows users to add, edit, and remove their payment options.
+- **LaundrySchedule.js**: Manages the scheduling of laundry pickups from the user’s location.
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🤝 Contributing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Feel free to contribute to the project by submitting a pull request or opening an issue for any bugs or feature suggestions.
 
-## Join the community
 
-Join our community of developers creating universal apps.
+**Happy coding!** ✨ Feel free to reach out with any questions or suggestions!
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+### Social Media
+- [LinkedIn](https://www.linkedin.com/in/okwudili-onyido-a79411173)
+- [Twitter](https://twitter.com/qubesmagazine)
+
+---
+
