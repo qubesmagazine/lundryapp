@@ -16,7 +16,6 @@ This is a **mobile laundry delivery app** built using **React Native**. The app 
 
 
 ![FrontEnd Images](./assets/images/div1.png)
-![FrontEnd Images](./assets/images/div2.png)
 
 
 
