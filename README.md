@@ -15,7 +15,7 @@ This is a **mobile laundry delivery app** built using **React Native**. The app 
 - **Logout**: Sign out of the account easily.
 
 
-![FrontEnd Images](./assets/images/div1.png)
+![FrontEnd Images](./assets/images/div2.png)
 
 
 
@@ -45,7 +45,7 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/laundry-app.git
-   cd laundry-app
+   cd laundryapp
    ```
 
 2. **Install dependencies:**
