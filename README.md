@@ -14,11 +14,9 @@ This is a **mobile laundry delivery app** built using **React Native**. The app 
 - **Push Notifications**: Receive notifications for order status updates.
 - **Logout**: Sign out of the account easily.
 
+<img src="./assets/images/div1.png" alt="Description" height="800" width="400">
 
-![FrontEnd Images](./assets/images/div2.png)
-
-
-
+<img src="./assets/images/div2.png" alt="Description" height="800" width="400">
 
 
 ## 🛠️ Tech Stack
